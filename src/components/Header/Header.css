@@ -1,0 +1,20 @@
+.header{
+    height: 75px;
+    background-color:#1C2B35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color:white;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+a:hover{
+    color: orange;
+    transition: 0.7s;
+    text-decoration: underline;
+}
