@@ -15,10 +15,7 @@
     height: 480px;
     position: relative;
 }
-.card-container:hover{
-    background-color: orange;
-    transition: 0.5s;
-}
+
 .card{
     padding: 10px;
 }
@@ -42,24 +39,18 @@ p{
 .card-btn{
     position: absolute;
     bottom: 0;
-    background-color: orange;
+    background-color: rgb(237, 173, 52);
     width: 100%;
-    border: 1px solid orange;
+    border: 1px solid rgb(233, 178, 77);
     border-radius: 0px 0px 8px 8px;
     height: 40px;
     font-size: 18px;
     font-weight: 500;
+    cursor: pointer;
 }
 .card-btn:hover{
-    background-color: rgb(255, 123, 0);
+    background-color: #f8960c;
     transition: 0.7s;
 }
-.order-data-container{
-    text-align: center;
-    background-color: rgb(226, 146, 60);
-    padding-top: 10px;
-}
-/* .shop-icon{
-    width: 20px;
-    height: 20px;
-} */
+
+

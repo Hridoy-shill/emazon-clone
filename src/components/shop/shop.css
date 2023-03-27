@@ -2,13 +2,7 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
-.order-data-container{
-    height: 80vh;
-    background-color: rgb(255, 162, 0);
-    margin-top: 20px;
-    border-radius: 10px;
-    margin-right: 10px;
-}
+
 .order-section-title{
     text-decoration: underline;
     margin-bottom: 20px;
