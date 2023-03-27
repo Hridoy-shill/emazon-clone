@@ -3,7 +3,9 @@ import './Product.css'
 
 const Product = (props) => {
     console.log(props.product);
-    const { name, img, price, quantity, ratings, seller, ratingsCount, shipping, stock } = props.product;
+    const { name, img, price, quantity, ratings, seller, ratingsCount, shipping, stock} = props.product;
+    const addToCard = props.addToCard
+    
     return (
         <div className='card-container'>
             <div className='card'>
@@ -17,7 +19,7 @@ const Product = (props) => {
                     <p>ratting: {ratings}</p>
                 </div>
             </div>
-            <button className='card-btn'>Add to Cart</button>
+            <button className='card-btn' onClick={()=>addToCard(props.product)}>Add to Cart</button>
 
         </div>
     );
