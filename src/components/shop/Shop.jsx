@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Product from '../singelProduct/Product';
+import Product from '../SingelProduct/Product';
 import './Shop.css'
 
 const Shop = () => {
@@ -26,7 +26,7 @@ const Shop = () => {
             </div>
 
             <div className="order-data-container">
-                <h3 className='component-title'>Order Summery</h3>
+                <h3 className='order-section-title'>Order Summery</h3>
                 <h4>Total Items: {itemsQuantity.length}</h4>
             </div>
         </div>
